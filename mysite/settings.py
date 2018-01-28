@@ -25,9 +25,8 @@ SECRET_KEY = 's22$)vij^go1(o^2$_id1r@j8#6y7fw))u(&a%y&7$(96v0y!l'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
-DEBUG = True
-
 ALLOWED_HOSTS = ['*']
+DEBUG = False
 
 try:
     from .local_settings import *
