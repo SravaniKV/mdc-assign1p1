@@ -148,8 +148,8 @@ STATIC_URL = '/static/'
 #Email details
 
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'sravy.kv@gmail.com'
-EMAIL_HOST_PASSWORD = 'Saviour789'
+EMAIL_HOST_USER = 'mdc2018.test@gmail.com'
+EMAIL_HOST_PASSWORD = 'mdcuno2018'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
